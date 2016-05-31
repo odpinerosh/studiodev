@@ -1,3 +1,7 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .home-wrapper {
   background: url('../images/background.jpg')  no-repeat center top;
   background-size: cover;
@@ -33,6 +37,16 @@ header nav a.active {
 #home {
   text-align: center;
   padding: 300px 0 150px;
+}
+
+#home h1 {
+  font-size: 4em;
+  font-weight: normal;
+}
+
+#home p {
+  font-size: 2em;
+  font-weight: lighter;
 }
 
 .container {
