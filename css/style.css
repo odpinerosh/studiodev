@@ -54,3 +54,30 @@ header nav a.active {
   margin-left: auto;
   margin-right: auto;
 }
+
+#home .social {
+  margin-top: 60px;
+}
+
+#home .social a {
+  color: #ffffff;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 40px;
+  margin-right: 10px;
+  height: 1.5em;
+  width: 1.5em;
+  /* Para suavizar el cambio de color */
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+
+}
+
+#home .social a:hover {
+  background-color: #fed236;
+
+}
