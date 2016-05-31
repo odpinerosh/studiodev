@@ -29,3 +29,14 @@ header nav a.active {
   background-color: #fed236;
   border-radius: 5%;
 }
+
+#home {
+  text-align: center;
+  padding: 300px 0 150px;
+}
+
+.container {
+  width: 996px;
+  margin-left: auto;
+  margin-right: auto;
+}
