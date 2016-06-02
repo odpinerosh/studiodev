@@ -93,6 +93,51 @@ header nav a.active {
   height: 209px;
 }
 
+
+#contacto {
+  background-color: #303030;
+  background-image: url('../images/map-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#contacto h2 {
+  color: #ffffff;
+}
+
+#contacto input {
+  padding: 20px;
+  width: 400px;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+}
+
+#contacto textarea {
+  margin: 20px 0;
+  padding: 20px;
+  width: 400px;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+}
+
+#contacto button {
+  background-color: #fed236;
+  border-color: #fed236;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 20px 40px;
+}
+
+footer {
+  font-size: 18px;
+  padding: 90px 0;
+  text-align: center;
+}
+
 section {
 
   padding: 80px 0;
