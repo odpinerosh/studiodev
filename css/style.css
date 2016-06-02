@@ -36,6 +36,11 @@ header nav a.active {
   border-radius: 5%;
 }
 
+#video {
+  text-align: center;;
+  background-color: #000000;
+  padding: 30px 0;
+}
 #home {
   text-align: center;
   padding: 300px 0 150px;
