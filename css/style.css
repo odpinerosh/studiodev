@@ -23,7 +23,11 @@ header img {
   width: 200px;
 }
 
-header nav {
+.navbar-brand {
+  padding-top: 5px;
+}
+
+/*header nav {
   float: right;
   margin-top: 10px;
 }
@@ -35,8 +39,19 @@ header nav a {
   margin-left: 10px;
   padding: 10px 15px;
 }
+*/
 
 header nav a.active {
+  background-color: #fed236;
+  border-radius: 5%;
+}
+
+header nav a.active:hover {
+  background-color: #fed236;
+  border-radius: 5%;
+}
+
+header nav a:hover {
   background-color: #fed236;
   border-radius: 5%;
 }

@@ -1,9 +1,9 @@
 $(document).ready(function () {
   $(document).on("scroll", onScroll);
-  $('nav a[href^="#"]').on('click', function (e) {
+  $('nav li a[href^="#"]').on('click', function (e) {
     e.preventDefault();
     $(document).off("scroll");
-    $('nav a').each(function () {
+    $('nav li a').each(function () {
       $(this).removeClass('active');
     })
     $(this).addClass('active');
@@ -19,11 +19,11 @@ $(document).ready(function () {
 });
 function onScroll(event){
   var scrollPosition = $(document).scrollTop();
-  $('nav a').each(function () {
+  $('nav li a').each(function () {
     var currentLink = $(this);
     var refElement = $(currentLink.attr("href"));
     if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
-      $('nav a').removeClass("active");
+      $('nav li a').removeClass("active");
       currentLink.addClass("active");
     }
     else{
