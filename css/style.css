@@ -43,17 +43,13 @@ header nav a {
 
 header nav a.active {
   background-color: #fed236;
-  border-radius: 5%;
+  border-radius: 5px;
 }
 
-header nav a.active:hover {
-  background-color: #fed236;
-  border-radius: 5%;
-}
-
-header nav a:hover {
-  background-color: #fed236;
-  border-radius: 5%;
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: #fed236;
+    border-radius: 5px;
 }
 
 #video {
