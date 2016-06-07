@@ -14,7 +14,7 @@ body {
 
 header {
   padding: 5px 0;
-  position: fixed;
+  /*position: fixed;*/
   width: 100%;
   height: 4em;
   background-color: rgba(48,48,48,0.5);
@@ -28,30 +28,12 @@ header img {
   padding-top: 5px;
 }
 
-/*header nav {
-  float: right;
-  margin-top: 10px;
-}
-
-header nav a {
-  text-decoration: none;
-  color: #ffffff;
-  font-weight: bold;
-  margin-left: 10px;
-  padding: 10px 15px;
-}
-*/
 
 header nav a.active {
   background-color: #fed236;
   border-radius: 5px;
 }
 
-/*.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
-    color: #fff;
-    background-color: #fed236;
-    border-radius: 5px;
-}*/
 
 #video {
   text-align: center;;
@@ -99,7 +81,17 @@ header nav a.active {
   background-color: whitesmoke;
 }
 
+#portafolio .col-sm-4 {
+  text-align: center;
+  background-color: #ffffff;
+  width: 31%;
+  margin: 1%;
+  padding: 10px;
+}
 
+#portafolio .col-sm-4 img {
+  width: 100%;
+}
 #portafolio .box {
 
   display: inline-block;

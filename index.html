@@ -24,14 +24,8 @@
         <header>
           <div class="container">
 
-            <!-- nav>
-              <a href="#home" class="active">INICIO</a>
-              <a href="#servicios">SERVICIOS</a>
-              <a href="#portafolio">PORTAFOLIO</a>
-              <a href="#contacto">CONTACTO</a>
-            </nav -->
 
-            <nav class="navbar navbar-inverse">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
               <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -112,14 +106,6 @@
       </div>
 
 
-      <div class="box" id="webdesign">
-      </div>
-
-      <div class="box" id="webdev">
-      </div>
-
-      <div class="box" id="movapp">
-      </div>
     </section>
 
     <section id="portafolio">
@@ -127,42 +113,46 @@
       <div class="container">
         <h2>PORTAFOLIO</h2>
 
-        <div class="box">
-          <img src="images/portafolio/roundicons.png" alt="Íconos Redondeados" />
-          <h3>Íconos Redondeados</h3>
-          <p>
-            Creamos los mejores íconos redondeados del mercado.
-          </p>
-        </div>
 
-        <div class="box">
-          <img src="images/portafolio/treehouse.png" alt="Creative Digital" />
-          <h3>Creative Digital</h3>
-          <p>Una web diseñada a la medida para un cliente muy especial.</p>
-        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="images/portafolio/roundicons.png" alt="Íconos Redondeados" />
+              <h3>Íconos Redondeados</h3>
+              <p>
+                Creamos los mejores íconos redondeados del mercado.
+              </p>
+            </div>
 
-        <div class="box">
-          <img src="images/portafolio/escape.png" alt="We can do that" />
-          <h3>We can do that</h3>
-          <p>Increíble desarrollo desde un concepto básico recibido del cliente.</p>
-        </div>
+            <div class="col-sm-4">
+              <img src="images/portafolio/treehouse.png" alt="Creative Digital" />
+              <h3>Creative Digital</h3>
+              <p>Una web diseñada a la medida para un cliente muy especial.</p>
+            </div>
 
-        <div class="box">
-          <img src="images/portafolio/Spotify.png" alt="Spotify"  id="spotify"/>
-          <h3>Spotify</h3>
-          <p>La imagen de Spotify es creación nuestra. ¡Increíble!</p>
-        </div>
-
-        <div class="box">
-          <img src="images/portafolio/Dreams.png" alt="Dreams" />
-          <h3>Dreams</h3>
-          <p>Una aplicación que define el estado del arte de su clase.</p>
-        </div>
-
-        <div class="box">
-          <img src="images/portafolio/startup-framework.png" alt="Startup Framework" />
-          <h3>Startup Framework</h3>
-          <p>Otra aplicación increíble de los conceptos de avanzada en diseño.</p>
+            <div class="col-sm-4">
+              <img src="images/portafolio/escape.png" alt="We can do that" />
+              <h3>We can do that</h3>
+              <p>Increíble desarrollo desde un concepto básico recibido del cliente.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="images/portafolio/Spotify.png" alt="Spotify"  id="spotify"/>
+              <h3>Spotify</h3>
+              <p>La imagen de Spotify es creación nuestra. ¡Increíble!</p>
+            </div>
+            <div class="col-sm-4">
+              <img src="images/portafolio/Dreams.png" alt="Dreams" />
+              <h3>Dreams</h3>
+              <p>Una aplicación que define el estado del arte de su clase.</p>
+            </div>
+            <div class="col-sm-4">
+              <img src="images/portafolio/startup-framework.png" alt="Startup Framework" />
+              <h3>Startup Framework</h3>
+              <p>Otra aplicación increíble de los conceptos de avanzada en diseño.</p>
+            </div>
+          </div>
         </div>
 
       </div>
@@ -179,12 +169,12 @@
     <section id="contacto">
       <h2>CONTACTO</h2>
       <form class="">
-        <div class="">
-          <input type="text" value="" placeholder="Tu correo">
+        <div class="form-group">
+          <input type="email" class="form-control" value="" placeholder="Tu correo">
         </div>
 
-        <div class="">
-          <textarea rows="10" placeholder="Tu mensaje"></textarea>
+        <div class="form-group">
+          <textarea rows="10" class="form-control" placeholder="Tu mensaje"></textarea>
         </div>
 
         <button type="button" name="button">ENVIAR</button>
